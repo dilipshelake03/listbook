@@ -9,4 +9,4 @@
 
 ### Run App
 
-`npm start` then visit [http://localhost:3000]
+`npm start` then visit <http://localhost:3000>
