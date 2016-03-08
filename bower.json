@@ -1,11 +1,16 @@
 {
-  "name": "angular-app-example",
+  "name": "node-angular-example",
   "description": "",
   "main": "server.js",  
-  "license": "ISC",
-  "moduleType": [],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
   "homepage": "",
   "private": true,
+  "Authors": [
+    "Peter Baio"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
