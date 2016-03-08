@@ -1,3 +1,5 @@
+Example application with AngularJS up and running on Node.js & ExpressJS using Bower.io
+
 ## Setup
 
 ### Install Bower
