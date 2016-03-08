@@ -1,5 +1,5 @@
 {
-  "name": "angular-app-example",
+  "name": "node-angular-example",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,8 +7,15 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbaio/node-angular-example"
+  },
+  "author": {
+    "name": "Peter Baio",
+    "url": "https://github.com/pbaio"
+  },
+  "license": "MIT",
   "dependencies": {
     "ejs": "^2.4.1",
     "express": "^4.13.4"
