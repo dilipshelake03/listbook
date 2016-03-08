@@ -8,6 +8,7 @@ Example application with AngularJS up and running on Node.js & ExpressJS using B
 ### Install Dependencies
 
 `npm install`
+`bower install`
 
 ### Run App
 
