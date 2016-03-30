@@ -9,10 +9,10 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 // Serve files from your "public" directory
-app.use('/public', express.static(path.join(__dirname + '/public')));
+app.use('/public', express.static(path.join(__dirname, '/public')));
 
 // Serve files from your "bower_components" directory
-app.use('/bower_components', express.static(path.join(__dirname + '/bower_components')));
+app.use('/bower_components', express.static(path.join(__dirname, '/bower_components')));
 
 // GET index.html route
 app.get('/', function(req, res) {
