@@ -1,5 +1,5 @@
 {
-  "name": "node-angular-example",
+  "name": "listbook",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,7 +12,7 @@
     "url": "https://github.com/pbaio/node-angular-example"
   },
   "author": {
-    "name": "Peter Baio",
+    "name": "dilip shelake",
     "url": "https://github.com/pbaio"
   },
   "license": "MIT",

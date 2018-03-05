@@ -12,6 +12,7 @@ app.set('view engine', 'html');
 
 // Serve files from your "public" directory
 app.use('/public', express.static(path.join(__dirname, '/public')));
+app.use('/api', express.static(path.join(__dirname, '/api')));
 
 // Serve files from your "bower_components" directory
 app.use('/bower_components', express.static(path.join(__dirname, '/bower_components')));

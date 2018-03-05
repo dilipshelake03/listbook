@@ -1,0 +1,45 @@
+<div class="container"  infinite-scroll="getMoreData()">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>
+                    <span>{{title}}</span>
+                </h4>
+            </div>
+            <div class="col-md-12">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            
+                            <th> 
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="prod in data">
+                            <td>
+                                {{prod.name}}
+                            </td>
+                            <td>
+                                {{ prod.type }}
+                            </td>
+                           
+                            <td>
+                                <a ng-click="removeRecord($index)"style="cursor: pointer"><i class="glyphicon glyphicon-trash"></i></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
